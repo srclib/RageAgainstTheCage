@@ -1,0 +1,66 @@
+The Android Exploid Crew
+========================
+
+(b)rings you root for the masses:
+
+
+Android 1.x/2.x softbreaks
+--------------------------
+
+As always:
+
+<ATTENTION>
+
+This code is under the GPL.
+It comes with absolutely NO WARRANTY, and you cant blame
+me for any damage it may cause.
+
+This program may make your device completely unusable and broken.
+You may loose all your data and warranty of the device!
+
+The program is intended for educational and demonstration
+purposes only.
+
+</ATTENTION>
+
+Since jailbreaking is no longer illegal (DMCA), we now
+also provide ARM5 ELF binaries for your convenience.
+The source of rageagainstthecage will be provided soon, as feedback
+arrives. It is exploiting a missing retval setuid() check inside adb.
+
+This tarball also includes the original and modded versions of exploid.c
+as well as rageagainstthecage.c which is
+particular for the Droid2 and Backflip devices or devices
+where exploid-hole has been patched OTA.
+
+If you like what we are doing you can send us PayPal money to
+7-4-3-C@web.de so we can compensate time, effort and HW costs.
+But you are not forced to do so.
+
+You can use the provided gif/jpg as a background
+image of your phone in order to feel cool in front of the gatekeeper
+before he kicks you because you look too geeky for
+the disco-girlz! Mind the crap!
+
+Exploid2 creates /system/bin/rootshell which is only accessable via adb,
+so no evil appz can execute commands as root. If that fails,
+it makes /system/bin/sh +s root though.
+
+The binaries have to be uploaded to the device via "adb push"
+inside a writable and executable directory such as
+
+/sqlite_stmt_journals
+/data/local/tmp
+/tmp
+
+After executing, they are self-explaining. After seeing '#' you
+are root. The jailbreaking has actually been done then,
+no matter what other tutorials tell you! You might want
+to install your Superuser.apk then in order to enable
+tethering etc. You can use one of the many instructions found
+on the web to do so.
+
+For those not familar: we know; exploit is written with 't'!
+RageAgainstTheCage is named after a similar named band which
+makes good music.
+
